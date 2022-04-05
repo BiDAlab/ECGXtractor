@@ -1,0 +1,40 @@
+{
+    "experiment": "autoencoder",
+    "input_keys_json": ["ecg"],
+    "output_keys_json": ["ecg"],
+
+    "__comment": "data path and format",
+    "data_path": [""],
+    "train": "",
+    "val": "",
+    "generator": true,
+    "parallel": true,
+    "lead_i": false,
+
+    "__comment": "feature extraction",
+    "extract_features": false,
+    "output_layer": "",
+    "extractor_path": "",
+
+    "__comment": "training settings",
+    "learning_rate": 0.001,
+    "batch_size": 64,
+    "accum_iters": 1,
+    "max_epochs": 250,
+    "metrics": [],
+    "save_best_only": false,
+    
+    "__comment": "EarlyStopping",
+    "patience_es": 6,
+    "monitor": "val_loss",
+    "min_delta_es": 0.0001,
+
+    "__comment": "ReduceLROnPlateau",
+    "min_delta_rlr": 0.0001,
+    "factor": 0.5,
+    "patience_rlr": 2,
+    "min_lr": 0.00001,
+
+    "__comment": "output",
+    "base_save_dir": "saved"
+}

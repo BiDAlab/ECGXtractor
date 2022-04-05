@@ -1,0 +1,43 @@
+{
+    "experiment": "verification_template",
+
+    "__comment": "data path and format",
+    "data_path": ["datasets/ptb"],
+    "train": "",
+    "val": "",
+    "generator": true,
+    "parallel": true,
+    "lead_i": false,
+    "positive_samples": 3,
+    "negative_multiplier": 5,
+
+    "__comment": "feature extraction",
+    "extract_features": true,
+    "output_layer": "flatten",
+    "extractor_path": "saved/1640709309-310_autoencoder/0.011-025-0.010.hdf5",
+
+    "__comment": "training settings",
+    "learning_rate": 0.001,
+    "batch_size": 64,
+    "accum_iters": 1,
+    "max_epochs": 250,
+    "metrics": ["accuracy", "auc"],
+    "save_best_only": false,
+    
+    "__comment": "EarlyStopping",
+    "patience_es": 6,
+    "monitor": "val_loss",
+    "min_delta_es": 0.0005,
+
+    "__comment": "ReduceLROnPlateau",
+    "min_delta_rlr": 0.0005,
+    "factor": 0.5,
+    "patience_rlr": 2,
+    "min_lr": 0.00001,
+
+    "__comment": "output",
+    "base_save_dir": "saved",
+
+    "__comment": "test",
+    "test": "datasets/test_multi_single_verification.json"
+}
