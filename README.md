@@ -1,6 +1,10 @@
-# ECGrecognition
+# ECGXtractor
 
-ECGrecognition is a Python library that allows to investigate the topic of ECG biometric recognition. In particular, it executes the experiments described in the article specified at the end of this page.
+ECGXtractor is a Python library that allows to investigate the topic of ECG biometric recognition. In particular, it executes the experiments described in the article specified at the end of this page.
+
+## Article
+
+(Insert link after publication).
 
 ## Setup
 
@@ -102,12 +106,10 @@ python src\train.py settings\config_identification.json
 
 After each training experiment, the folder *saved* will be created. It will contain the weights of your trained models.
 
-## Acknowledgments
-
-The source code and the repository structure are inspired by [this work](https://github.com/awni/ecg).
-
-## Article
+## References
 
 (Insert link after publication).
+
+Please remember to reference the article on any work made public, whatever the form, based directly or indirectly on any part of ECGXtractor.
 
 For further questions, please send an email to [pietro.melzi@uam.es](mailto:pietro.melzi@uam.es)
