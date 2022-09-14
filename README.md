@@ -24,7 +24,7 @@ python -m pip install -r requirements.txt
 
 In [this](comparisons) folder you can find the list of genuine and impostor comparison pairs evaluated in the different executions of the experiments included in our paper, related to the task of verification.
 
-We also provide [here](https://dauam-my.sharepoint.com/:u:/g/personal/pietro_melzi_uam_es/EXSrW2HPfkRLqMR1sU0wwNgB_lJZ0AQqB87d7HpV_ZM_rA?e=FiKA1G) the weights of our pretrained models. They are used to perform the experiments described in our paper.
+We also provide [here](http://atvs.ii.uam.es/atvs/pietro/saved.rar) the weights of our pretrained models. They are used to perform the experiments described in our paper.
 
 ## Data preparation
 
@@ -32,7 +32,7 @@ The following instructions refer to PTB database. Similarly, you can also run ex
 
 ### ECG signals
 
-Download [this](https://dauam-my.sharepoint.com/:u:/g/personal/pietro_melzi_uam_es/Ec832XsM2HFDurbd9B2PopwBlLCtPS19J8HCwqZ5246Rng?e=cIcjZ3) zip file and extract it in datasets\ptb. It contains:
+Download [this](http://atvs.ii.uam.es/atvs/pietro/ptb.rar) zip file and extract it in datasets\ptb. It contains:
 * 549 12-Lead ECG signals from PTB database, re-sampled at 500 Hz, and filtered
 * the list of healthy subjects included in the PTB database;
 * the list of subjects for which multiple ECG signals are contained in PTB;
