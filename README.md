@@ -4,7 +4,8 @@ ECGXtractor is a Python library that allows to investigate the topic of ECG biom
 
 ## Article
 
-(Insert link after publication).
+Melzi, Pietro, Ruben Tolosana, and Ruben Vera-Rodriguez. "Ecg biometric recognition: Review, system proposal, and benchmark evaluation." *IEEE Access*, 2023.
+[Link](https://ieeexplore.ieee.org/abstract/document/10043674)
 
 ## Setup
 
@@ -108,7 +109,8 @@ After each training experiment, the folder *saved* will be created. It will cont
 
 ## References
 
-(Insert link after publication).
+Melzi, Pietro, Ruben Tolosana, and Ruben Vera-Rodriguez. "Ecg biometric recognition: Review, system proposal, and benchmark evaluation." *IEEE Access*, 2023.
+[Link](https://ieeexplore.ieee.org/abstract/document/10043674)
 
 Please remember to reference the article on any work made public, whatever the form, based directly or indirectly on any part of ECGXtractor.
 
